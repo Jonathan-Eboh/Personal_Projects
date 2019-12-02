@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
 
     <title>My Portfolio</title>
 
-  <link rel="stylesheet" type="text/css" href="css/superslides.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 
-  </head>
-  <body>
+</head>
+
+<body>
 
 
     <div id="slides">
 
-      <div class="overlay">
+        <div class="overlay">
 
-      </div>
+        </div>
 
-          <div class="slides-container">
+        <div class="slides-container">
             <img src="img/slide1.jpg" alt="">
             <img src="img/slide2.jpg" alt="">
             <img src="img/slide3.jpg" alt="">
-          </div>
+        </div>
 
-          <div class="titleMessage">
+        <div class="titleMessage">
             <div class="heading">
-              <p class="main">Jon Eboh</p>
-              <p class="sub">Software Engineer</p>
+                <p class="main">Jon Eboh</p>
+                <p class="sub typed"></p>
             </div>
-          </div>
+        </div>
 
         <nav class="slides-navigation">
-          <a href="#" class="next"></a>
-          <a href="#" class="prev"></a>
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
         </nav>
 
     </div>
@@ -45,10 +47,75 @@
 
 
 
-  <script src="js/jquery.superslides.min.js" type="text/javascript"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-   <script src="js/script.js" type="text/javascript"></script>
-  </body>
+    <div id="about" class="section">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-5">
+                    <img class="MyImg" src="img/My_old_image.png">
+                </div>
+
+                <div class="col-md-7">
+
+                    <h4>My name is Jon Eboh</h4>
+
+                    <p>I am both creative and relentlessly inquisitive. I enjoy solving problems and I love to learn new things. I also value expanding my skill set whenever possible. My experience as a programmer is focused in the design and building of full stack web applications. Prior to programming I worked as a Cognitive Science consultant and technical writer. I am currently employed by the Extension Technology & Computer Services department of the University of Missouri in Columbia.</p>
+
+
+                    <p>This is my personal website. Its effectively an extension of my resume.</p>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="skills" class="skillsSection section">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+                    <h2>TECHNICAL SKILLS</h2>
+                    <p>A representations of my proficiency in each skill</p>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="skill">
+                        <span class="chart" data-percent="67">
+
+                            <span class="percent">67</span>
+                            <canvas height="152" width="152"></canvas>
+
+                        </span>
+                        <h4>FIRST SKILL</h4>
+                        <p>Used in most of my web based projects</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/jquery.superslides.min.js" type="text/javascript"></script>
+    <script src="js/typed.min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+
 </html>
